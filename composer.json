@@ -1,0 +1,18 @@
+{
+    "name": "hein/project",
+    "authors": [
+        {
+            "name": "heinminhtet31",
+            "email": "heinminhtet3110@gmail.com"
+        }
+    ],
+    "require": {
+     
+    },
+    "autoload": {
+        "psr-4": {
+        "Libs\\": "_classes/Libs/",
+        "Helpers\\": "_classes/Helpers/"
+        }
+    }
+}
