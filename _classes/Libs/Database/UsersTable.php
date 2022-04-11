@@ -1,13 +1,13 @@
 <?php
     namespace Libs\Database;
     use PDOException;
-    class UserTables{
+    class UsersTable{
         private $db= null;
         public function __construct(MySQL $db)
         {
             $this->db = $db->connect();
         }
-        public function inser($data){
+        public function insert($data){
             try{
                 $query = "
                 INSERT INTO users(
